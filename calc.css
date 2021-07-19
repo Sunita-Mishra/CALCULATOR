@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('images/suni-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.main{
+    text-align: center;
+    margin-top: 5vw;
+    width: 100vw;
+}
+table{
+    height: 10vh;
+    width: 15vw;
+    margin: auto;
+
+}
+#screen{
+    height: 3vw;
+    width: 28vw;
+    border-radius: 0.5vw;
+
+}
+button{
+    font-size: 2vw;
+    height: 5vw;
+    width: 7vw;
+    border-radius: 1vw;
+    background-color:rgba(200, 179, 233, 0.5);
+    cursor: pointer;
+}
+.calculator{
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 2vw;
+    background-color: rgba(0,0,0,0.7);
+}
+h1{
+    font-size: 2.8vw;
+    text-shadow: rgba(39, 97, 61, 0.5);
+    color: rgb(87, 96, 145);
+}
+@media (max-width:500px) {
+    .main{
+        margin-top: 24vh;
+    }
+    #screen{
+        height: 7vw;
+        width: 40.9vw;
+        border-radius: 0.5vw;
+    
+    }
+    .calculator{
+        display: inline-block;
+        padding: 8vw;
+
+    }
+    button{
+        font-size: 5vw;
+        height: 9vw;
+        width: 10vw;
+        border-radius: 1vw;
+        background-color:rgba(200, 179, 233, 0.5);
+        cursor: pointer;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    
+}
